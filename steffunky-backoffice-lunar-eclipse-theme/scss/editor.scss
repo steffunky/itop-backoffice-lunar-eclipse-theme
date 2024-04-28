@@ -1,0 +1,42 @@
+.cke_reset_all,
+.cke_reset_all *,
+.cke_reset_all a,
+.cke_reset_all textarea {
+	color: $ibo-color-grey-950  !important;
+}
+.cke_chrome {
+	border: 1px solid $ibo-color-grey-300 !important;
+}
+.cke_editable{
+  background: $ibo-color-grey-100;
+}
+.cke_inner {
+	background: $ibo-color-grey-300 !important;
+}
+.cke_top {
+	border-bottom: 1px solid $ibo-color-grey-300 !important;
+	background: $ibo-color-white-100 !important;
+	white-space: normal !important;
+}
+.cke_float .cke_top {
+	border: 1px solid $ibo-color-grey-500 !important;
+}
+.cke_bottom {
+
+	border-top: 1px solid $ibo-color-grey-500 !important;
+	background: $ibo-color-white-200 !important;
+}
+.cke_browser_ios .cke_contents {
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.cke_resizer {
+	border-color: transparent #bcbcbc transparent transparent;
+}
+.cke_resizer_rtl {
+	border-color: transparent transparent transparent #bcbcbc;
+}
+.cke_panel {
+	background-color: $ibo-color-grey-200;
+	border: 1px solid #d1d1d1;
+}

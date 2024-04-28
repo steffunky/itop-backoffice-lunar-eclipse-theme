@@ -1,0 +1,21 @@
+.dataTable {
+    @each $sColorLabel, $aAttributes in $ibo-vendors-datatables--row-highlight--colors {
+        $sBgColor: nth($aAttributes, 1);
+        tr.ibo-is-#{$sColorLabel}{
+          color: $sBgColor;
+          &:nth-child(odd) {
+            background-color: $ibo-vendors-datatables--row--background-color--is-odd;
+          }
+        
+          &:nth-child(even) {
+            background-color: $ibo-vendors-datatables--row--background-color--is-even;
+          }
+          &:hover, &.selected:hover {
+            background-color: $ibo-datatable--row--background-color--is-hover;
+          }
+          &.selected {
+            background-color: $ibo-datatable--row--background-color--is-selected;
+          }
+        }
+      }
+}
