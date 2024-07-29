@@ -11,9 +11,10 @@
         </imports>
         <stylesheets>
           <stylesheet id="fullmoon">../css/backoffice/main.scss</stylesheet>
-          <stylesheet id="style">steffunky-backoffice-lunar-eclipse-theme/scss/style.scss</stylesheet>
+          <stylesheet id="dark-stylesheet">steffunky-backoffice-dark-theme-base/scss/stylesheet.scss</stylesheet>
+          <stylesheet id="stylesheet">steffunky-backoffice-lunar-eclipse-theme/scss/style.scss</stylesheet>
           <stylesheet id="ace_editor">steffunky-backoffice-lunar-eclipse-theme/scss/ace_editor.scss</stylesheet>
-          <stylesheet id="ck_editor">steffunky-backoffice-lunar-eclipse-theme/scss/editor.scss</stylesheet>
+          <stylesheet id="ckeditor">steffunky-backoffice-dark-theme-base/scss/ckeditor.scss</stylesheet>
         </stylesheets>
         <precompiled_stylesheet>steffunky-backoffice-lunar-eclipse-theme/precompiled-themes/main.css</precompiled_stylesheet>
       </theme>

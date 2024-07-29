@@ -192,13 +192,14 @@ $ibo-quick-create--icon--color--on-hover: $ibo-color-primary-300;
 $ibo-quick-create--icon--color--on-active: $ibo-color-primary-400;
 
 $ibo-datatable--toolbar--text-color: $ibo-color-white-200;
-$ibo-vendors-datatables--pagination-button--background-color--on-hover: $ibo-color-highlight-med-500;
+$ibo-vendors-datatables--pagination-button--background-color--on-hover: $ibo-color-highlight-high-500;
 $ibo-vendors-datatables--pagination-button--text-color--is-active: $ibo-color-white-200;
-$ibo-vendors-datatables--pagination-button--background-color--is-active: $ibo-color-highlight-low-500;
+$ibo-vendors-datatables--pagination-button--background-color--is-active: $ibo-color-highlight-med-500;
 $ibo-vendors-datatables--pagination-button--box-shadow--is-active: inset 0px 1px 0px rgba(0, 0, 0, 0.15);
 $ibo-vendors-datatables--pagination-button--text-color--is-disabled: $ibo-color-grey-600;
 
 $ibo-vendors-datatables--page-length-selector--text-color: $ibo-color-grey-100;
+$ibo-vendors-datatables--page-length-selector--background-color: $ibo-color-grey-600;
 $ibo-vendors-datatables--page-length-selector--background-color: $ibo-color-grey-600;
 $ibo-vendors-datatables--page-length-selector--border-color: $ibo-color-grey-800;
 $ibo-vendors-datatables--page-length-selector--border-color--on-focus: $ibo-color-primary-300;
@@ -299,7 +300,7 @@ $ibo-search-form-panel--criteria--border-color: transparent;
 $ibo-search-form-panel--multiple-choice--hover--color: $ibo-color-grey-500;
 $ibo-search-form-panel--items--hover--color: $ibo-search-form-panel--multiple-choice--hover--color;
 
-$ibo-activity-entry--main-information--background-color: $ibo-color-white-150;
+$ibo-activity-entry--main-information--background-color: $ibo-color-white-100;
 $ibo-activity-entry--main-information--is-current-user--background-color: $ibo-color-primary-100;
 $ibo-activity-entry--medallion--has-no-image--background-color: $ibo-color-grey-300;
 $ibo-activity-entry--medallion--has-no-image--text-color: $ibo-color-white-100;
