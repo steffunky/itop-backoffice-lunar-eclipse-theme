@@ -7,7 +7,8 @@
         </variables>
         <imports>
           <import id="rose-pine-scss-variables" xsi:type="variables">steffunky-backoffice-lunar-eclipse-theme/scss/rose-pine-variables.scss</import>
-          <import id="lunar-eclipse-scss-variables" xsi:type="variables">steffunky-backoffice-lunar-eclipse-theme/scss/scss-variables.scss</import>
+            <import id="dark-theme-base" xsi:type="variables">steffunky-backoffice-dark-theme-base/scss/base.scss</import>
+            <import id="lunar-eclipse-scss-variables" xsi:type="variables">steffunky-backoffice-lunar-eclipse-theme/scss/scss-variables.scss</import>
         </imports>
         <stylesheets>
           <stylesheet id="fullmoon">../css/backoffice/main.scss</stylesheet>
